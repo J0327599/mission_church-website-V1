@@ -1,13 +1,5 @@
 "use client"
 
-export async function generateStaticParams() {
-  // TODO: Replace with your actual event IDs for production
-  return [
-    { eventId: 'demo-event-1' },
-    { eventId: 'demo-event-2' }
-  ];
-}
-
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
